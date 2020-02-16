@@ -8,13 +8,19 @@
 * Base
 */
 
+html,
+body {
+  min-height: 100%;
+}
+
 body {
   font: 12px/24px Helvetica, Arial, sans-serif;
   color: #ffffff;
-  background: #ffffff;
-  background: url("./assets/img//background5.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-color: #323232;
+  background-image: url("./assets/img/background5.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  // background-position-x: -167px;
 }
